@@ -1,0 +1,114 @@
+
+:root{
+   
+ 
+
+
+    --color-verde-dark:#1b676b;
+    --color-upen:#519548;
+    --color-verde-limon:#88c425;
+    --color-verde-axion:#bef202;
+    --color-pistacho:#eafde6;
+    --color-crema:#F1E9E9;
+ 
+}
+.bg-shakira{
+    background-image:url(../img/shakira.png);
+    background-repeat: repeat-x;
+    background-size:contain;
+    height:25px;
+    width:100%;
+   
+    
+  }
+.bg-header{
+  
+  background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%);
+  
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            
+            display: block;
+}
+.bg-header:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.caliz{
+display: flex;
+flex-direction: column;
+
+
+}
+
+.bg-header2{
+  margin-right: 0%;
+  
+}
+
+.carousel-caption{
+    bottom:15rem;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+img .responsive {
+  width: 100%;
+  height: auto;
+}
+
+.bgbody{
+
+   background-color: var(--color-crema);
+}
+.blog-footer {
+
+ position:absolute;
+margin-bottom: 0px;
+ width: 100%;
+    padding: 2.5rem 0;
+    color: white;
+    text-align: center;
+    background-color: var(--color-verde-dark);
+    border-top: .05rem solid #e5e5e5;
+
+  }
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
+.footer-link{
+    margin-right: 10px;
+}
+
+
+.dtilt{
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+.dtilt1{
+  transform: translateZ(20px);
+}
+.dtilt2{
+  transform: translateZ(40px);
+}
+.dtilt3{
+  transform: translateZ(1px);
+}
+.marr{
+ width: 380px;
+ margin-left: 3%;
+
+}
+
+
+.marb{
+  margin-bottom: 25px;
+}
